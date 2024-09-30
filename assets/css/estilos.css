@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* estilo para primer item*/
+.item1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.claseTest{
+    cursor: pointer;  
+    width: 400px;
+}
+.borde1{
+    border: 2px solid red;
+}
+/* estilo para segundo item*/
+/*estilo sumar y restar uno*/
+.formatoSticker{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width: 16rem;
+    height: auto;
+}
+.formatoCajas{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-bottom: 2rem;
+}
+.formatoitem2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.formatoSeccion2{
+    margin-top: 2rem;
+    text-align: center;
+}
+.estilomensajecantidad{
+    font-size: medium;
+    color: chocolate;
+    margin-bottom: 1rem;
+}
+.formatoBnt{
+    width: 8rem;
+    height: 2.5rem;
+    font-size: medium;
+    font-weight: 500;
+    background-color: darkolivegreen;
+}
+.formatoSeccion3{
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.formatoBntnum{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: medium;
+}

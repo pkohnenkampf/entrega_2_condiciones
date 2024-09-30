@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="./assets/css/estilos.css" >
+</head>
+<body>
+    <!--primer item entrega 2 de condiciones JS-->
+    <section class="item1">
+        <h2>Haz click en la imagen</h2>
+        <img src="./assets/imagenes/IMG_20200322_144139.jpg" alt="" id="contenedor" class="claseTest borde1">
+    </section>
+    <!--segundo item entrega 2 de condiciones JS-->
+    <section class="formatoSeccion2">   
+        <h2>Elige la cantidad de stickers para llevar</h2>
+        <div class="formatoitem2">
+            <div class="formatoCajas">        
+                <img src="./assets/imagenes/pegatina-naruto-anime-2d_757354-35.avif" alt="naruto" class="formatoSticker">
+                <input type="number" id="ingresoSticker1" min="0" value="0"/>
+            </div>  
+            <div class="formatoCajas">        
+                <img src="./assets/imagenes/killua.webp" alt="killua" class="formatoSticker">
+                <input type="number" id="ingresoSticker2" min="0" value="0"/>
+            </div> 
+            <div class="formatoCajas">        
+                <img src="./assets/imagenes/Orange.jpg" alt="Orange" class="formatoSticker">
+                <input type="number" id="ingresoSticker3" min="0" value="0"/>
+            </div> 
+        </div>
+            <p id="mensaje1" class="estilomensajecantidad"></p> 
+            <button id="btnVerificar" class="formatoBnt">verificar</button>
+             
+    </section> 
+    <section class="formatoSeccion3">
+        <h2>Ingresa Tu contraseña</h2>
+        <div>
+            <select name="casilla1" id="digito1" class="formatoBntnum">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="casilla2" id="digito2" class="formatoBntnum">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="casilla3" id="digito3" class="formatoBntnum">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+            <p id="mensaje2" class="estilomensajecantidad"></p>    
+            <button id="btnClave" class="formatoBnt" onclick="verificarClave()">Ingresar Password</button>
+    </section>
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
